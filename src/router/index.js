@@ -31,7 +31,7 @@ const routes = [{
     component: Profile
   }
 ]
-const router = new Vue({
+const router = new VueRouter({
   routes,
   mode: 'history'
 })
